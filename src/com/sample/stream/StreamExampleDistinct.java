@@ -1,8 +1,9 @@
+package com.sample.stream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class StreamExample2 {
+public class StreamExampleDistinct {
 	
 	public static void main(String[] args) {
 		ArrayList<String> list = getPlayersList();

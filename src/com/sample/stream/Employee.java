@@ -1,3 +1,4 @@
+package com.sample.stream;
 
 public class Employee {
 	private String name;

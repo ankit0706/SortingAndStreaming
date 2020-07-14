@@ -1,8 +1,16 @@
+package com.sample.stream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
-
+/**
+ * Using the Collectors class methods, either by using the object's
+ * inbuilt compare method or by using a custom comparator.
+ * The algorithm used is TimSort which is a hybrid sorting algorithm.
+ * Kind of combination of Insertion sort and merge sort.
+ * @author AANU
+ *
+ */
 public class JavaSorting {
 	public static void main(String[] args) {
 		LinkedList<Integer> mList = new LinkedList<>();

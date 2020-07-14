@@ -1,7 +1,14 @@
+package com.sample.stream;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
-
+/**
+ * Comparator is a functional interface because it has only one method
+ * called compare. The method takes 2 parameters and returns an int.
+ * We can use lambda expression to directly define and use the interface
+ * method in the same line.
+ * @author AANU
+ *
+ */
 public class SortingWithLambdas {
 	public static void main(String[] args) {
 		Employee e1 = new Employee();
